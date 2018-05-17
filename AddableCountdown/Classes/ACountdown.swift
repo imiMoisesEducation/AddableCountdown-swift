@@ -1,5 +1,5 @@
 //
-//  AddableCountdown.swift
+//  ACountdown.swift
 //
 //  Created by Moises Lozada on 3/4/18.
 //
@@ -7,7 +7,7 @@
 import Foundation
 
 /// Class that can trigger a callback after a addable amount of time
-final class AddableCountdown{
+final class ACountdown{
     
     /// Underlying timer class
     private var timer: Timer = Timer.init()

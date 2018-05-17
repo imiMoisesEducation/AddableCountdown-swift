@@ -12,7 +12,7 @@
 		0433C3659E1679A44CBE1C9E1ED838EC /* AddableCountdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F38AF18C0DCA0168E5D5F9D505E3D95B /* AddableCountdown-dummy.m */; };
 		0EFBEDE041651C8B492A3C8E3729B394 /* Pods-AddableCountdown_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D315EAB261578E25D76C2125AA321B /* Pods-AddableCountdown_Tests-dummy.m */; };
 		1EF9CC643852BD5881BBD8B2E78677FB /* AddableCountdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA7E45CE8112DA3805BDF00D4758172 /* AddableCountdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85A35F16D0E5F1B15AF3466630DE794F /* AddableCountdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596774F1526684903E4B289C63A2D60A /* AddableCountdown.swift */; };
+		85A35F16D0E5F1B15AF3466630DE794F /* ACountdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596774F1526684903E4B289C63A2D60A /* ACountdown.swift */; };
 		FCF0B7D4549B9D05B6752CCE635AA1EB /* Pods-AddableCountdown_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 026BE05E9E631F703FD937AD9EC665C3 /* Pods-AddableCountdown_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,7 @@
 		48AEFDC4F2E064B9BA2DB937112E53DE /* Pods-AddableCountdown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AddableCountdown_Tests.modulemap"; sourceTree = "<group>"; };
 		48D315EAB261578E25D76C2125AA321B /* Pods-AddableCountdown_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AddableCountdown_Tests-dummy.m"; sourceTree = "<group>"; };
 		567F2EDF810D549933BCB71C6D4068B7 /* AddableCountdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AddableCountdown-prefix.pch"; sourceTree = "<group>"; };
-		596774F1526684903E4B289C63A2D60A /* AddableCountdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddableCountdown.swift; path = AddableCountdown/Classes/AddableCountdown.swift; sourceTree = "<group>"; };
+		596774F1526684903E4B289C63A2D60A /* ACountdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ACountdown.swift; path = AddableCountdown/Classes/ACountdown.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67F3C2FC48F6E30755444934A498B069 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		757B7C8A3A2ACC597DF04CF8DEE4E76F /* Pods-AddableCountdown_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddableCountdown_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		BB7E464A080E0496FC2E4C3CE83BA3B1 /* AddableCountdown */ = {
 			isa = PBXGroup;
 			children = (
-				596774F1526684903E4B289C63A2D60A /* AddableCountdown.swift */,
+				596774F1526684903E4B289C63A2D60A /* ACountdown.swift */,
 				E68CB3CDF872FBD259197831DDD02285 /* Pod */,
 				47F716BFD20FE447DF317DC4F564D454 /* Support Files */,
 			);
@@ -268,7 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0433C3659E1679A44CBE1C9E1ED838EC /* AddableCountdown-dummy.m in Sources */,
-				85A35F16D0E5F1B15AF3466630DE794F /* AddableCountdown.swift in Sources */,
+				85A35F16D0E5F1B15AF3466630DE794F /* ACountdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
