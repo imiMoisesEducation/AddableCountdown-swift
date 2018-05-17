@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AddableCountdown_Tests' do
+  pod 'AddableCountdown', :path => '../'
+  
+  
+end
