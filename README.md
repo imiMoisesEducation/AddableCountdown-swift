@@ -5,11 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/AddableCountdown.svg?style=flat)](https://cocoapods.org/pods/AddableCountdown)
 [![Platform](https://img.shields.io/cocoapods/p/AddableCountdown.svg?style=flat)](https://cocoapods.org/pods/AddableCountdown)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+
+Swift 4, (Haven't been tested on swift 3)
 
 ## Installation
 
@@ -22,7 +20,7 @@ pod 'AddableCountdown'
 
 ## Author
 
-WAMS M, imimoimoi@gmail.com
+Moises Lozada, imimoises@zoho.com
 
 ## License
 

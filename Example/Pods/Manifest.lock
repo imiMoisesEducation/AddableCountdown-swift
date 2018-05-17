@@ -1,0 +1,16 @@
+PODS:
+  - AddableCountdown (0.1.0)
+
+DEPENDENCIES:
+  - AddableCountdown (from `../`)
+
+EXTERNAL SOURCES:
+  AddableCountdown:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AddableCountdown: c5b8ed5ea6549337f2dd35a10d41f080acbab88e
+
+PODFILE CHECKSUM: 7a9f2fc11a4b527ec6dfde700b3bbfc9233f76a5
+
+COCOAPODS: 1.5.2
